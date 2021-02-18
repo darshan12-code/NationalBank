@@ -1,0 +1,221 @@
+/* css reset */
+*{
+    padding:0px;
+    margin:0px;
+
+}
+
+/* Home */
+.mainHeading{
+    
+    text-align: center;
+    }
+section.topCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+section.topCont .main-cont {
+    
+    color: #2f4583;
+    font-size: 80px;
+    border-radius: 60px;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: aliceblue;
+}
+
+section.topCont .sub-cont {
+     
+     
+    font-size: 40px;
+    color:white;
+}
+section.title {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+/* section.topCont img {
+    height: 0%; 
+    width: 150%;
+} */
+
+.sub-title {
+
+    text-align: center;
+    margin-top: 20px;
+    color: #223979;
+}
+
+
+section.topCont .topContImg {
+    margin-right: auto;    
+    width: 100%;
+}
+.img{
+    margin: auto;
+    margin-top: 20px;
+    width:100px;
+}
+
+@media only screen and (max-width: 600px) {
+    section.topCont .topContImg {
+        margin-right: auto;    
+        width: 90%;
+        height: 120%;
+    }
+
+    section.topCont .main-cont {
+    
+        color: #2f4583;
+        font-size: 80px;
+        border-radius: 60px;
+        font-family: 'Baloo Bhai 2', cursive;
+        background-color: aliceblue;
+    }
+    
+section.topCont .sub-cont {
+     
+     
+    font-size: 20px;
+    color:white;
+}
+    
+}
+
+/*  Home End */
+
+/* Heading */
+.heading{
+    font-size: 50px;
+    padding-top: 40px;  
+    margin: 40px;
+    color: #223979;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 60px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+/* Heading End */
+
+/* Text */
+.text{
+    color: #223979;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 50px;    
+}
+/* Text End */
+
+#para1{
+    font-size:20px ;
+}
+
+#contact{
+    width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+#contact 
+ {
+    width: 400px;
+ }
+}
+  
+
+/* Card */
+
+.card:hover{
+    box-shadow: 5px 10px lightslategray;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    min-width: 0;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background-clip: border-box;
+}
+  
+/* #card-te #card-ti{
+color: floralwhite;
+} */
+/* Card End */
+
+
+/* Footer */
+
+footer{
+    
+    height: 165px;
+	display:flex;
+	align-items:center;
+    margin: 0px;
+    margin-top: 180px;
+    
+    text-align: center;
+    font-family: sans-serif; 
+    background-color:gray!important;
+    padding-top: 25px;
+	justify-content: center;
+	flex-direction: column;
+    color: rgb(202, 187, 187);
+}
+
+.text-copy{
+    padding: 25px 0;
+    width: 100%;
+    font-family: sans-serif; 
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 0px;   
+    background-color: #f8f9fa!important;
+    color: rgb(43, 41, 41);
+}
+
+.social{
+    margin-top: 10px;
+}
+.social a {   
+    display: inline-block;   
+    padding: 8px;   
+    text-align: center;   
+    color: white;   
+    font-size: 15px;   
+    }         
+
+.social a:hover {   
+    color: #000;   
+} 
+      
+.instagram {   
+    background: #3f729b;   
+    color: white;   
+}
+
+.twitter {   
+    color: white;   
+    background: #00acee;   
+}   
+
+.linkedin{   
+    background:#0e76a8;   
+    color: white;   
+}          
+
+.facebook {   
+    background: #3b5998;   
+    color: white;  
+}         
+/*Footer */
+

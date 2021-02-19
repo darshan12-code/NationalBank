@@ -17,17 +17,17 @@ if(isset($_POST['submit']))
 
 
 
-    // constraint to check input of negative value by user
+    // To check input of negative value by user
     if (($amt)<0)
    {
         echo '<script type="text/javascript">';
-        echo ' alert("Sorry! Negative Vaules are unable to transfered")';  // showing an alert box.
+        echo ' alert("Sorry! Negative Vaules are unable to transfered")';  
         echo '</script>';
     }
 
 
   
-    // constraint to check insufficient balance.
+    // To check insufficient balance.
     else if($amt > $sql1['balance']) 
     {
         
@@ -38,7 +38,7 @@ if(isset($_POST['submit']))
     
 
 
-    // constraint to check zero values
+    //  To check zero values
     else if($amt == 0){
 
          echo "<script type='text/javascript'>";
@@ -49,13 +49,13 @@ if(isset($_POST['submit']))
 
     else {
         
-                // deducting money amount from the Sender's Account
+                // deducts money amount from the Sender's Account
                 $newbalance = $sql1['balance'] - $amt;
                 $sql = "UPDATE users set balance=$newbalance where id=$from";
                 mysqli_query($conn,$sql);
              
 
-                // adding money amount to Reciever's Account
+                // adds money amount to Reciever's Account
                 $newbalance = $sql2['balance'] + $amt;
                 $sql = "UPDATE users set balance=$newbalance where id=$to";
                 mysqli_query($conn,$sql);

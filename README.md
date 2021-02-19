@@ -21,5 +21,5 @@ TO RUN PROJECT save the project in c/xampp/htdocs/ open xampp server. Start Apac
 Check my website here:
 
 
-##ScreenShot of Home Page
+## ScreenShot of Home Page
 <img src="https://github.com/darshan12-code/NationalBank/blob/main/NationalBankImg.jpg">
